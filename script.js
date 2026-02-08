@@ -24,24 +24,16 @@ const image = document.getElementById("slideshow"); // <-- ajouté !
 let press = false;
 
 const images = [
-    "images/img1.jpg",
-    "images/img2.jpg",
-    "images/img3.jpg",
-    "images/img4.jpg",
-    "images/img5.jpg",
-    "images/img6.jpg",
-    "images/img7.jpg",
-    "images/img8.jpg",
-    "images/img9.jpg",
-    "images/img10.jpg",
-    "images/img11.jpg",
-    "images/img12.jpg",
-    "images/img13.jpg",
-    "images/img14.jpg",
-    "images/img15.jpg",
-    "images/img16.jpg",
-    "images/img17.jpg",
-    "images/img18.jpg",
+    "images/img1.png",
+    "images/img2.png",
+    "images/img3.png",
+    "images/img4.png",
+    "images/img5.png",
+    "images/img6.png",
+    "images/img7.png",
+    "images/img8.png",
+    "images/img9.png",
+    "images/img10.png"
 ];
 
 let index = 0;
@@ -70,3 +62,4 @@ yesBtn.addEventListener("click", () => {
         }, 2000); // change toutes les 2 secondes
     }
 });
+
