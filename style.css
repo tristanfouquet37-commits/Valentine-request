@@ -1,5 +1,6 @@
 body {
     background-color:antiquewhite;
+    transition: background-color 0.5s ease;
 }
 
 h1 {
@@ -31,4 +32,10 @@ h1 {
 .no {
     background-color: #da5151;
     border: 2px solid #aa2f2f;
+}
+
+.fade-out {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
 }
